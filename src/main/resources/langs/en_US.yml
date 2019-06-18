@@ -160,7 +160,7 @@ administration:
     LanguageCommand:
         invalidLanguageCode: "Invalid language code given, `{0}` is not a valid language code, or it is not yet supported!"
         changed: "The server's language has been successfully been updated to use the :name language!"
-        note: "AvaIre supports several user-contributed languages that you can select with this command. Translations may not be 100% accurate or complete.\nTo select a language use `{0} <code>`"
+        note: "Rathens Bot supports several user-contributed languages that you can select with this command. Translations may not be 100% accurate or complete.\nTo select a language use `{0} <code>`"
 
     LevelAlertsCommand:
         message: "`Level up alerts` have been `:status` for the server.:note"
