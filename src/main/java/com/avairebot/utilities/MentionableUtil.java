@@ -69,9 +69,9 @@ public class MentionableUtil {
      * <p>
      * <ul>
      * <li>Discord mentions (@Someone)</li>
-     * <li>Full name mentions (Senither#000)</li>
-     * <li>Name mentions (Senither)</li>
-     * <li>User ID (88739639380172800)</li>
+     * <li>Full name mentions (Tyler. H#9393)</li>
+     * <li>Name mentions (Tyler. H)</li>
+     * <li>User ID (444609097233465347)</li>
      * </ul>
      * <p>
      * If none of the checks finds a valid user object, <code>null</code> will be returned instead.
@@ -90,9 +90,9 @@ public class MentionableUtil {
      * the method will try the following to get a user object out the other end.
      * <ul>
      * <li>Discord mentions (@Someone)</li>
-     * <li>Full name mentions (Senither#000)</li>
-     * <li>Name mentions (Senither)</li>
-     * <li>User ID (88739639380172800)</li>
+     * <li>Full name mentions (Tyler. H#9339)</li>
+     * <li>Name mentions (Tyler. H)</li>
+     * <li>User ID (444609097233465347)</li>
      * </ul>
      * <p>
      * If none of the checks finds a valid user object, <code>null</code> will be returned instead.
