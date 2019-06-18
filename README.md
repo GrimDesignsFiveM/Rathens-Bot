@@ -1,7 +1,3 @@
-<p align="center">
-    <img src="https://avairebot.com/assets/img/banner-simple.png">
-</p>
-
 ## Rathens Bot
 
 AvaIre is a multipurpose Discord bot made for fun, written in Java 8, using the [JDA](https://github.com/DV8FromTheWorld/JDA) library.
