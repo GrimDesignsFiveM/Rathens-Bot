@@ -77,13 +77,13 @@ public class MessageEventAdapter extends EventAdapter {
         "Hi there! I'm **%s**, a multipurpose Discord bot built for fun by %s!",
         "You can see what commands I have by using the `%s` command.",
         "",
-        "I am currently running **AvaIre v%s**",
+        "I am currently running **Rathens Bot v%s**",
         "",
         "You can find all of my source code on github:",
-        "https://github.com/avaire/avaire",
+        "https://github.com/GrimDesignsFiveM/Rathens-Bot",
         "",
-        "If you like me please vote for AvaIre to help me grow:",
-        "https://discordbots.org/bot/avaire/vote"
+        "If you like me please vote for Rathens Bot to help me grow:",
+        "https://discordbots.org"
     ));
 
     /**
@@ -191,9 +191,9 @@ public class MessageEventAdapter extends EventAdapter {
     }
 
     private void sendTagInformationMessage(MessageReceivedEvent event) {
-        String author = "**Senither#0001**";
-        if (event.getMessage().getChannelType().isGuild() && event.getGuild().getMemberById(88739639380172800L) != null) {
-            author = "<@88739639380172800>";
+        String author = "**Tyler. H#9393**";
+        if (event.getMessage().getChannelType().isGuild() && event.getGuild().getMemberById(444609097233465347L) != null) {
+            author = "<@444609097233465347>";
         }
 
         MessageFactory.makeEmbeddedMessage(event.getMessage().getChannel(), Color.decode("#E91E63"), String.format(mentionMessage,
@@ -233,8 +233,8 @@ public class MessageEventAdapter extends EventAdapter {
                 strings.add("\nYou can tag me in a message with <@:botId> to send me a message that I should process using my AI.");
             }
 
-            strings.add("\n**Full list of commands**\n*https://avairebot.com/docs/commands*");
-            strings.add("\nAvaIre Support Server:\n*https://avairebot.com/support*");
+            strings.add("\n**Full list of commands**\n*https://rathens-bot.webnode.com/*");
+            strings.add("\nRathens Bot Support Server:\n*https://www.discord.gg/invite/kmZ7u3J*");
 
             CommandContainer commandContainer = CommandHandler.getCommands().stream()
                 .filter(container -> !container.getCategory().isGlobalOrSystem())
