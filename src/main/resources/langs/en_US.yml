@@ -867,7 +867,7 @@ utility:
     VersionCommand:
         current: 'I am currently `:difference` :type versions behind!'
         getLatest: 'You can get the latest version of me on github at [Rathens Bot](https://github.com/GrimDesignsFiveM/Rathens-Bot)'
-        usingLatest: "You're using the latest version of AvaIre!"
+        usingLatest: "You're using the latest version of Rathens Bot!"
         latestVersion: 'The latest version of Rathens Bot is v{0}'
         latestChanges: 'Latest changes:'
         versions:
