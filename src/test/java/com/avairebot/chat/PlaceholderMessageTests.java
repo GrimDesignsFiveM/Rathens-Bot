@@ -83,12 +83,12 @@ public class PlaceholderMessageTests extends BaseTest {
     @Test
     public void testTitleIsSetWithUrlCorrectly() {
         PlaceholderMessage message = createWith(null);
-        message.setTitle("Some weird Title", "https://avairebot.com/");
+        message.setTitle("Some weird Title", "https://rathens-bot.webnode.com/");
 
         MessageEmbed embed = message.buildEmbed();
 
         assertEquals("Some weird Title", embed.getTitle());
-        assertEquals("https://avairebot.com/", embed.getUrl());
+        assertEquals("https://rathens-bot.webnode.com/", embed.getUrl());
     }
 
     @Test
@@ -105,32 +105,32 @@ public class PlaceholderMessageTests extends BaseTest {
     @Test
     public void testFooterIsSetWithIconCorrectly() {
         PlaceholderMessage message = createWith(null);
-        message.setFooter("Some weird title!", "https://i.imgur.com/xW53ysv.gif");
+        message.setFooter("Some weird title!", "https://i.imgur.com/ZJoPqTC.png");
 
         MessageEmbed embed = message.buildEmbed();
 
         assertEquals("Some weird title!", embed.getFooter().getText());
-        assertEquals("https://i.imgur.com/xW53ysv.gif", embed.getFooter().getIconUrl());
+        assertEquals("https://i.imgur.com/ZJoPqTC.png", embed.getFooter().getIconUrl());
     }
 
     @Test
     public void testThumbnailIsSetCorrectly() {
         PlaceholderMessage message = createWith(null);
-        message.setThumbnail("https://i.imgur.com/wAD0tqK.gif");
+        message.setThumbnail("https://i.imgur.com/ZJoPqTC.png");
 
         MessageEmbed embed = message.buildEmbed();
 
-        assertEquals("https://i.imgur.com/wAD0tqK.gif", embed.getThumbnail().getUrl());
+        assertEquals("https://i.imgur.com/ZJoPqTC.png", embed.getThumbnail().getUrl());
     }
 
     @Test
     public void testImageIsSetCorrectly() {
         PlaceholderMessage message = createWith(null);
-        message.setImage("https://i.imgur.com/W7qSt0G.gif");
+        message.setImage("https://i.imgur.com/ZJoPqTC.png");
 
         MessageEmbed embed = message.buildEmbed();
 
-        assertEquals("https://i.imgur.com/W7qSt0G.gif", embed.getImage().getUrl());
+        assertEquals("https://i.imgur.com/ZJoPqTC.png", embed.getImage().getUrl());
     }
 
     @Test
@@ -160,25 +160,25 @@ public class PlaceholderMessageTests extends BaseTest {
     @Test
     public void testAuthorIsSetWithoutIconCorrectly() {
         PlaceholderMessage message = createWith(null);
-        message.setAuthor("Tyler. H", "https://avairebot.com/");
+        message.setAuthor("Tyler. H", "https://rathens-bot.webnode.com/");
 
         MessageEmbed embed = message.buildEmbed();
 
         assertEquals("Tyler. H", embed.getAuthor().getName());
-        assertEquals("https://avairebot.com/", embed.getAuthor().getUrl());
+        assertEquals("https://rathens-bot.webnode.com//", embed.getAuthor().getUrl());
         assertEquals(null, embed.getAuthor().getIconUrl());
     }
 
     @Test
     public void testAuthorIsSetCorrectly() {
         PlaceholderMessage message = createWith(null);
-        message.setAuthor("Tyler. H", "https://avairebot.com/", "https://i.imgur.com/odFyo1Q.gif");
+        message.setAuthor("Tyler. H", "https://rathens-bot.webnode.com/", "https://i.imgur.com/ZJoPqTC.png");
 
         MessageEmbed embed = message.buildEmbed();
 
         assertEquals("Tyler. H", embed.getAuthor().getName());
-        assertEquals("https://avairebot.com/", embed.getAuthor().getUrl());
-        assertEquals("https://i.imgur.com/odFyo1Q.gif", embed.getAuthor().getIconUrl());
+        assertEquals("https://rathens-bot.webnode.com/", embed.getAuthor().getUrl());
+        assertEquals("https://i.imgur.com/ZJoPqTC.png", embed.getAuthor().getIconUrl());
     }
 
     @Test
