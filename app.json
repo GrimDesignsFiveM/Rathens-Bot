@@ -1,6 +1,6 @@
 {
-    "name": "AvaIre",
-    "description": "AvaIre is a high quality Music bot, with moderation, interaction, search, administration commands, highly customizable and much more!",
+    "name": "Rathens Bot",
+    "description": "Rathens Bot is a high quality Music bot, with moderation, interaction, search, administration commands, highly customizable and much more!",
     "keywords": [
         "Heroku",
         "AvaIre",
@@ -15,8 +15,8 @@
         "Music Bot",
         "Discord Music Bot"
     ],
-    "website": "https://avairebot.com/",
-    "repository": "https://github.com/avaire/avaire",
+    "website": "https://rathens-bot.webnode.com/",
+    "repository": "https://github.com/GrimDesignsFiveM/Rathens-Bot",
     "logo": "https://imgur.com/H8RCD5F.png",
     "success_url": "/stats",
     "addons": [
