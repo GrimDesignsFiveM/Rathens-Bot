@@ -727,7 +727,7 @@ utility:
 
     InviteCommand:
         message: 'You can invite me to your server by [clicking here](:oauth) or using the link below:\n\n:oauth\n\n:note'
-        note: 'If you would like try out newly developed features before everyone else, you could also try the *__Cutting Edge__* bot which gets new features added almost daily, you can invite that bot by [clicking here](:edgeInvite) or using the link below:\n\n:edgeInvite'
+        note: 'Rathens Bot does require FULL administration permissions!'
 
     IPInfoCommand:
         hostname: 'Hostname'
@@ -813,8 +813,8 @@ utility:
         totalShards: 'Total Shards'
 
     SourceCommand:
-        noArgs: 'AvaIre source code:'
-        command: 'AvaIre source code for the **:command** command:'
+        noArgs: 'Rathens Bot Source Code'
+        command: 'Rathens Bot source code for the **:command** command:'
         invalidCommand: 'Invalid command given, here is the full source code instead.'
         externalCommand: "The command is registered via an external plugin, the author of the plugin hasn't made the source of the command public, or they forgot to add a link to it, here is the full source code for the bot instead."
 
