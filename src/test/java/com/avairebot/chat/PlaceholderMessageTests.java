@@ -152,7 +152,7 @@ public class PlaceholderMessageTests extends BaseTest {
 
         MessageEmbed embed = message.buildEmbed();
 
-        assertEquals("Senither", embed.getAuthor().getName());
+        assertEquals("Tyler. H", embed.getAuthor().getName());
         assertEquals(null, embed.getAuthor().getIconUrl());
         assertEquals(null, embed.getAuthor().getUrl());
     }
@@ -165,7 +165,7 @@ public class PlaceholderMessageTests extends BaseTest {
         MessageEmbed embed = message.buildEmbed();
 
         assertEquals("Tyler. H", embed.getAuthor().getName());
-        assertEquals("https://rathens-bot.webnode.com//", embed.getAuthor().getUrl());
+        assertEquals("https://rathens-bot.webnode.com/", embed.getAuthor().getUrl());
         assertEquals(null, embed.getAuthor().getIconUrl());
     }
 
