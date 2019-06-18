@@ -8,7 +8,7 @@ Hey there! Before you report a bug or suggest a new feature,
   please make sure to follow these steps first!
   
 - [ ] I have checked for similar issues.
-- [ ] I have updated to the [latest Ava version][version].
+- [ ] I have updated to the [latest Rathens Bot version][version].
 - [ ] I have checked the branches or the maintainers' PRs for upcoming features/bug fixes.
 
 > This is not the place to learn Java. Please refer to [StackOverflow][stack overflow]
@@ -21,7 +21,7 @@ Hey there! Before you report a bug or suggest a new feature,
 - [ ] Bug Report
 - [ ] Feature Request
 
-> For questions join the official AvaIre discord server: https://discord.gg/gt2FWER
+> For questions join the official Rathens Bot discord server: https://discord.gg/gt2FWER
 
 ### Description
 
