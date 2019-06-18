@@ -148,7 +148,7 @@ public class PlaceholderMessageTests extends BaseTest {
     @Test
     public void testAuthorIsSetWithoutUrlAndIconCorrectly() {
         PlaceholderMessage message = createWith(null);
-        message.setAuthor("Senither");
+        message.setAuthor("Tyler. H");
 
         MessageEmbed embed = message.buildEmbed();
 
@@ -160,11 +160,11 @@ public class PlaceholderMessageTests extends BaseTest {
     @Test
     public void testAuthorIsSetWithoutIconCorrectly() {
         PlaceholderMessage message = createWith(null);
-        message.setAuthor("Senither", "https://avairebot.com/");
+        message.setAuthor("Tyler. H", "https://avairebot.com/");
 
         MessageEmbed embed = message.buildEmbed();
 
-        assertEquals("Senither", embed.getAuthor().getName());
+        assertEquals("Tyler. H", embed.getAuthor().getName());
         assertEquals("https://avairebot.com/", embed.getAuthor().getUrl());
         assertEquals(null, embed.getAuthor().getIconUrl());
     }
@@ -172,11 +172,11 @@ public class PlaceholderMessageTests extends BaseTest {
     @Test
     public void testAuthorIsSetCorrectly() {
         PlaceholderMessage message = createWith(null);
-        message.setAuthor("Senither", "https://avairebot.com/", "https://i.imgur.com/odFyo1Q.gif");
+        message.setAuthor("Tyler. H", "https://avairebot.com/", "https://i.imgur.com/odFyo1Q.gif");
 
         MessageEmbed embed = message.buildEmbed();
 
-        assertEquals("Senither", embed.getAuthor().getName());
+        assertEquals("Tyler. H", embed.getAuthor().getName());
         assertEquals("https://avairebot.com/", embed.getAuthor().getUrl());
         assertEquals("https://i.imgur.com/odFyo1Q.gif", embed.getAuthor().getIconUrl());
     }
