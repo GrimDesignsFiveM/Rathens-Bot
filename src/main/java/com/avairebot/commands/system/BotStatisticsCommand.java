@@ -116,7 +116,7 @@ public class BotStatisticsCommand extends SystemCommand {
                 NumberUtil.formatNicely(avaire.getShardManager().getGuilds().size())
             ), true)
         )
-            .setAuthor("AvaIre v" + AppInfo.getAppInfo().version, "https://discordapp.com/invite/gt2FWER", avaire.getSelfUser().getEffectiveAvatarUrl())
+            .setAuthor("Rathens Bot v" + AppInfo.getAppInfo().version, "https://discordapp.com/invite/NKKqstp", avaire.getSelfUser().getEffectiveAvatarUrl())
             .setDescription("The bot has been online for " + formatUptimeNicely())
             .queue();
 
