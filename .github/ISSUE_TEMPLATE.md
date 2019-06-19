@@ -1,4 +1,4 @@
-[version]: https://github.com/avaire/avaire/blob/master/build.gradle#L10
+[version]: https://github.com/GrimDesignsFiveM/Rathens-Bot/blob/master/build.gradle
 [guild]: https://discord.gg/gt2FWER
 [stack overflow]: https://stackoverflow.com/questions/tagged/java
 
