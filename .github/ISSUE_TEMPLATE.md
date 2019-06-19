@@ -1,4 +1,4 @@
-[version]: https://github.com/GrimDesignsFiveM/Rathens-Bot/blob/master/build.gradle#L8
+[version]: https://github.com/GrimDesignsFiveM/Rathens-Bot/releases
 [guild]: https://discordapp.com/invite/NKKqstp
 [stack overflow]: https://stackoverflow.com/questions/tagged/java
 
