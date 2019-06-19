@@ -1,5 +1,5 @@
-[version]: https://github.com/GrimDesignsFiveM/Rathens-Bot/blob/master/build.gradle
-[guild]: https://discord.gg/gt2FWER
+[version]: https://github.com/GrimDesignsFiveM/Rathens-Bot/blob/master/build.gradle#L8
+[guild]: https://discordapp.com/invite/NKKqstp
 [stack overflow]: https://stackoverflow.com/questions/tagged/java
 
 ## General Troubleshooting
@@ -21,7 +21,7 @@ Hey there! Before you report a bug or suggest a new feature,
 - [ ] Bug Report
 - [ ] Feature Request
 
-> For questions join the official Rathens Bot discord server: https://discord.gg/gt2FWER
+> For questions join the official Rathens Bot discord server: https://discordapp.com/invite/NKKqstp
 
 ### Description
 
