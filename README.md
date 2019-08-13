@@ -1,6 +1,7 @@
 ## Rathens Bot
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FRathens-Bot.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FRathens-Bot?ref=badge_large)
 
-AvaIre is a multipurpose Discord bot made for fun, written in Java 8, using the [JDA](https://github.com/DV8FromTheWorld/JDA) library.
+Rathens Bot is a multipurpose Discord bot made for fun, written in Java 8, using the [JDA](https://github.com/DV8FromTheWorld/JDA) library.
 
 ## Main features
 
@@ -24,4 +25,3 @@ You can deploy in a simple way to Heroku using the button below.
 
 
 ## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FRathens-Bot.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FRathens-Bot?ref=badge_large)
