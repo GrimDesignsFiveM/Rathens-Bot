@@ -1,5 +1,5 @@
 ## Rathens Bot
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FRathens-Bot.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FRathens-Bot?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FRathens-Bot.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FRathens-Bot?ref=badge_shield)
 
 Rathens Bot is a multipurpose Discord bot made for fun, written in Java 8, using the [JDA](https://github.com/DV8FromTheWorld/JDA) library.
 
@@ -21,7 +21,7 @@ Rathens Bot is a multipurpose Discord bot made for fun, written in Java 8, using
 You can deploy in a simple way to Heroku using the button below.
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/GrimDesignsFiveM/Rathens-Bot/tree/master)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FRathens-Bot.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FRathens-Bot?ref=badge_shield)
 
 
 ## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FRathens-Bot.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FRathens-Bot?ref=badge_large)
