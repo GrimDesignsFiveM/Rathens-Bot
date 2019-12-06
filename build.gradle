@@ -30,6 +30,13 @@ shadowJar {
     }
 }
 
+task copyToLib(type: Copy) {
+    into "build/libs/AvaIre.jar"
+    from(configurations.compile)
+}
+
+stage.dependsOn(copyToLib)
+
 tasks.withType(JavaCompile) {
     dependsOn 'clean'
     options.encoding = 'UTF-8'
