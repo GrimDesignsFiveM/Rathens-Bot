@@ -9,7 +9,7 @@ apply plugin: 'idea'
 
 version = '0.9.177'
 group = 'com.avairebot'
-description = 'Rathens Bot'
+description = 'AvaIre Discord Bot'
 mainClassName = 'com.avairebot.Main'
 
 sourceCompatibility = 1.8
