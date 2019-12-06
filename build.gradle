@@ -36,6 +36,20 @@ tasks.withType(JavaCompile) {
     options.compilerArgs << "-Xlint:-unchecked"
 }
 
+task copyToLib(type: Copy) {
+    into "$build/libs/AvaIre.jar"
+    from(configurations.compile)
+}
+
+stage.dependsOn(copyToLib)
+
+gradle.taskGraph.whenReady {
+  taskGraph ->
+    if (taskGraph.hasTask(stage)) {
+      test.enabled = false
+    }
+}
+
 task fatJar(type: Jar) {
     manifest {
         attributes 'Implementation-Title': 'AvaIre: Discord Bot',
